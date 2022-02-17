@@ -19,7 +19,7 @@ struct Home: View {
             VStack {
                 LazyVGrid(columns: columns) {
                     DeemoAppIcon(name: "Image Fetcher", color: .blue, destination: ImageFetcher())
-                    DeemoAppIcon(name: "Reddit", color: .orange, destination: Text("LOL"))
+                    DeemoAppIcon(name: "PokeDex", color: .orange, destination: PokeDex())
                 }
                 Spacer()
             }
