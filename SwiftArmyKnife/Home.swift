@@ -20,11 +20,12 @@ struct Home: View {
                 LazyVGrid(columns: columns) {
                     DeemoAppIcon(name: "Image Fetcher", color: .blue, destination: ImageFetcher())
                     DeemoAppIcon(name: "PokeDex", color: .orange, destination: PokeDex())
+                    DeemoAppIcon(name: "Journal", color: .green, destination: Journal())
                 }
                 Spacer()
             }
             .padding()
-            .navigationTitle("Swift Army Knife/")
+            .navigationTitle("Swift Army Knife")
             
         }
     }
