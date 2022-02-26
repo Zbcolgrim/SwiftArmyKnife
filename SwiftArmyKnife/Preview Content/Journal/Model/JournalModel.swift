@@ -11,9 +11,14 @@ class JournalModel: ObservableObject {
     
     @Published var entries: [JournalEntry] = []
     private var saveFileURL: URL? {
+        
+        #if DEBUG
+        return nil
+        #else
         try? FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
             .appendingPathComponent("journalEntries")
             .appendingPathExtension("json")
+        #endif
     }
     func createEntry(title: String, contents: String) {
         let entry = JournalEntry(title: title, contents: contents)
@@ -61,3 +66,8 @@ class JournalModel: ObservableObject {
         }
     }
 }
+
+
+
+// New File
+// Storage.swift

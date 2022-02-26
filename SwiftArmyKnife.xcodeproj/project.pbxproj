@@ -21,7 +21,26 @@
 		7F64561827BFEFA800A9E4B6 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64561727BFEFA800A9E4B6 /* JournalEntry.swift */; };
 		7F64561B27BFFAB500A9E4B6 /* JournalEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64561A27BFFAB500A9E4B6 /* JournalEditor.swift */; };
 		7F64561D27BFFAD200A9E4B6 /* JournalEditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64561C27BFFAD200A9E4B6 /* JournalEditorModel.swift */; };
+		7F64564727CA7B7200A9E4B6 /* JournalModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64564627CA7B7200A9E4B6 /* JournalModelTest.swift */; };
+		7F64565427CA82FE00A9E4B6 /* PokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64565327CA82FE00A9E4B6 /* PokedexUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F64564827CA7B7200A9E4B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F6455EA27BD4BAD00A9E4B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F6455F127BD4BAD00A9E4B6;
+			remoteInfo = SwiftArmyKnife;
+		};
+		7F64565727CA82FE00A9E4B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F6455EA27BD4BAD00A9E4B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F6455F127BD4BAD00A9E4B6;
+			remoteInfo = SwiftArmyKnife;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7F6455F227BD4BAD00A9E4B6 /* SwiftArmyKnife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftArmyKnife.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,10 +58,28 @@
 		7F64561727BFEFA800A9E4B6 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 		7F64561A27BFFAB500A9E4B6 /* JournalEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditor.swift; sourceTree = "<group>"; };
 		7F64561C27BFFAD200A9E4B6 /* JournalEditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEditorModel.swift; sourceTree = "<group>"; };
+		7F64564427CA7B7200A9E4B6 /* SwiftArmyKnifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftArmyKnifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F64564627CA7B7200A9E4B6 /* JournalModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalModelTest.swift; sourceTree = "<group>"; };
+		7F64565127CA82FE00A9E4B6 /* SwiftArmyKnifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftArmyKnifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F64565327CA82FE00A9E4B6 /* PokedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7F6455EF27BD4BAD00A9E4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F64564127CA7B7200A9E4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F64564E27CA82FE00A9E4B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				7F6455F427BD4BAD00A9E4B6 /* SwiftArmyKnife */,
+				7F64564527CA7B7200A9E4B6 /* SwiftArmyKnifeTests */,
+				7F64565227CA82FE00A9E4B6 /* SwiftArmyKnifeUITests */,
 				7F6455F327BD4BAD00A9E4B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				7F6455F227BD4BAD00A9E4B6 /* SwiftArmyKnife.app */,
+				7F64564427CA7B7200A9E4B6 /* SwiftArmyKnifeTests.xctest */,
+				7F64565127CA82FE00A9E4B6 /* SwiftArmyKnifeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,6 +178,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		7F64564527CA7B7200A9E4B6 /* SwiftArmyKnifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F64564627CA7B7200A9E4B6 /* JournalModelTest.swift */,
+			);
+			path = SwiftArmyKnifeTests;
+			sourceTree = "<group>";
+		};
+		7F64565227CA82FE00A9E4B6 /* SwiftArmyKnifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F64565327CA82FE00A9E4B6 /* PokedexUITests.swift */,
+			);
+			path = SwiftArmyKnifeUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +214,42 @@
 			productReference = 7F6455F227BD4BAD00A9E4B6 /* SwiftArmyKnife.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7F64564327CA7B7200A9E4B6 /* SwiftArmyKnifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F64564A27CA7B7200A9E4B6 /* Build configuration list for PBXNativeTarget "SwiftArmyKnifeTests" */;
+			buildPhases = (
+				7F64564027CA7B7200A9E4B6 /* Sources */,
+				7F64564127CA7B7200A9E4B6 /* Frameworks */,
+				7F64564227CA7B7200A9E4B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F64564927CA7B7200A9E4B6 /* PBXTargetDependency */,
+			);
+			name = SwiftArmyKnifeTests;
+			productName = SwiftArmyKnifeTests;
+			productReference = 7F64564427CA7B7200A9E4B6 /* SwiftArmyKnifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F64565027CA82FE00A9E4B6 /* SwiftArmyKnifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F64565927CA82FE00A9E4B6 /* Build configuration list for PBXNativeTarget "SwiftArmyKnifeUITests" */;
+			buildPhases = (
+				7F64564D27CA82FE00A9E4B6 /* Sources */,
+				7F64564E27CA82FE00A9E4B6 /* Frameworks */,
+				7F64564F27CA82FE00A9E4B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F64565827CA82FE00A9E4B6 /* PBXTargetDependency */,
+			);
+			name = SwiftArmyKnifeUITests;
+			productName = SwiftArmyKnifeUITests;
+			productReference = 7F64565127CA82FE00A9E4B6 /* SwiftArmyKnifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -169,6 +262,14 @@
 				TargetAttributes = {
 					7F6455F127BD4BAD00A9E4B6 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					7F64564327CA7B7200A9E4B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7F6455F127BD4BAD00A9E4B6;
+					};
+					7F64565027CA82FE00A9E4B6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7F6455F127BD4BAD00A9E4B6;
 					};
 				};
 			};
@@ -186,6 +287,8 @@
 			projectRoot = "";
 			targets = (
 				7F6455F127BD4BAD00A9E4B6 /* SwiftArmyKnife */,
+				7F64564327CA7B7200A9E4B6 /* SwiftArmyKnifeTests */,
+				7F64565027CA82FE00A9E4B6 /* SwiftArmyKnifeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,6 +300,20 @@
 			files = (
 				7F6455FD27BD4BAF00A9E4B6 /* Preview Assets.xcassets in Resources */,
 				7F6455FA27BD4BAF00A9E4B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F64564227CA7B7200A9E4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F64564F27CA82FE00A9E4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +339,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F64564027CA7B7200A9E4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F64564727CA7B7200A9E4B6 /* JournalModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F64564D27CA82FE00A9E4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F64565427CA82FE00A9E4B6 /* PokedexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F64564927CA7B7200A9E4B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F6455F127BD4BAD00A9E4B6 /* SwiftArmyKnife */;
+			targetProxy = 7F64564827CA7B7200A9E4B6 /* PBXContainerItemProxy */;
+		};
+		7F64565827CA82FE00A9E4B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F6455F127BD4BAD00A9E4B6 /* SwiftArmyKnife */;
+			targetProxy = 7F64565727CA82FE00A9E4B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7F6455FE27BD4BAF00A9E4B6 /* Debug */ = {
@@ -397,6 +543,72 @@
 			};
 			name = Release;
 		};
+		7F64564B27CA7B7200A9E4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zachbuff.SwiftArmyKnifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftArmyKnife.app/SwiftArmyKnife";
+			};
+			name = Debug;
+		};
+		7F64564C27CA7B7200A9E4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zachbuff.SwiftArmyKnifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftArmyKnife.app/SwiftArmyKnife";
+			};
+			name = Release;
+		};
+		7F64565A27CA82FE00A9E4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zachbuff.SwiftArmyKnifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftArmyKnife;
+			};
+			name = Debug;
+		};
+		7F64565B27CA82FE00A9E4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zachbuff.SwiftArmyKnifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftArmyKnife;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,6 +626,24 @@
 			buildConfigurations = (
 				7F64560127BD4BAF00A9E4B6 /* Debug */,
 				7F64560227BD4BAF00A9E4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F64564A27CA7B7200A9E4B6 /* Build configuration list for PBXNativeTarget "SwiftArmyKnifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F64564B27CA7B7200A9E4B6 /* Debug */,
+				7F64564C27CA7B7200A9E4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F64565927CA82FE00A9E4B6 /* Build configuration list for PBXNativeTarget "SwiftArmyKnifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F64565A27CA82FE00A9E4B6 /* Debug */,
+				7F64565B27CA82FE00A9E4B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
