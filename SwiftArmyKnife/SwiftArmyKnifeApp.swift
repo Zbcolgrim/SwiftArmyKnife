@@ -12,9 +12,10 @@ struct SwiftArmyKnifeApp: App {
     var body: some Scene {
         WindowGroup {
             Home()
-               // .onAppear {
-                   // .UserDefaults
-               // }
+                .environment(\.managedObjectContext, TodoListStorage.shared.container.viewContext)
+                .onAppear {
+                    UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+                }
         }
     }
 }
