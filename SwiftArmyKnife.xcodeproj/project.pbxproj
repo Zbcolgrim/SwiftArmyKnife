@@ -31,6 +31,9 @@
 		7FD34ADD27DF9DD8003AD89E /* Sunset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD34ADC27DF9DD8003AD89E /* Sunset.swift */; };
 		7FD34ADF27DF9E2B003AD89E /* SunsetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD34ADE27DF9E2B003AD89E /* SunsetViewModel.swift */; };
 		7FD34AE127DF9E64003AD89E /* SunsetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD34AE027DF9E64003AD89E /* SunsetModel.swift */; };
+		7FD34AE427DF9EDD003AD89E /* DogFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD34AE327DF9EDD003AD89E /* DogFacts.swift */; };
+		7FD34AE627DF9FD2003AD89E /* DogFactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD34AE527DF9FD2003AD89E /* DogFactsViewModel.swift */; };
+		7FD34AE827DF9FFB003AD89E /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD34AE727DF9FFB003AD89E /* Fact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,9 @@
 		7FD34ADC27DF9DD8003AD89E /* Sunset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sunset.swift; sourceTree = "<group>"; };
 		7FD34ADE27DF9E2B003AD89E /* SunsetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetViewModel.swift; sourceTree = "<group>"; };
 		7FD34AE027DF9E64003AD89E /* SunsetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunsetModel.swift; sourceTree = "<group>"; };
+		7FD34AE327DF9EDD003AD89E /* DogFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFacts.swift; sourceTree = "<group>"; };
+		7FD34AE527DF9FD2003AD89E /* DogFactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactsViewModel.swift; sourceTree = "<group>"; };
+		7FD34AE727DF9FFB003AD89E /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,7 @@
 		7F6455FB27BD4BAF00A9E4B6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				7FD34AE227DF9EB2003AD89E /* DogFacts */,
 				7FD34ADB27DF9D8F003AD89E /* Sunset */,
 				7F64565E27D3BD4300A9E4B6 /* TodoList */,
 				7F64560427BD539800A9E4B6 /* ImageFetch */,
@@ -232,6 +239,16 @@
 				7FD34AE027DF9E64003AD89E /* SunsetModel.swift */,
 			);
 			path = Sunset;
+			sourceTree = "<group>";
+		};
+		7FD34AE227DF9EB2003AD89E /* DogFacts */ = {
+			isa = PBXGroup;
+			children = (
+				7FD34AE327DF9EDD003AD89E /* DogFacts.swift */,
+				7FD34AE527DF9FD2003AD89E /* DogFactsViewModel.swift */,
+				7FD34AE727DF9FFB003AD89E /* Fact.swift */,
+			);
+			path = DogFacts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,9 +381,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD34AE827DF9FFB003AD89E /* Fact.swift in Sources */,
 				7F64561627BFEECA00A9E4B6 /* JournalModel.swift in Sources */,
 				7FD34ADF27DF9E2B003AD89E /* SunsetViewModel.swift in Sources */,
 				7F64566527D3BFAC00A9E4B6 /* Todos.xcdatamodeld in Sources */,
+				7FD34AE427DF9EDD003AD89E /* DogFacts.swift in Sources */,
 				7F64566227D3BEBD00A9E4B6 /* TodoStorage.swift in Sources */,
 				7F64566927D3C4B800A9E4B6 /* TodoListModel.swift in Sources */,
 				7F64566727D3C2F500A9E4B6 /* Todos+Convenience.swift in Sources */,
@@ -374,6 +393,7 @@
 				7FD34AE127DF9E64003AD89E /* SunsetModel.swift in Sources */,
 				7F64566027D3BD6A00A9E4B6 /* TodoList.swift in Sources */,
 				7F64561D27BFFAD200A9E4B6 /* JournalEditorModel.swift in Sources */,
+				7FD34AE627DF9FD2003AD89E /* DogFactsViewModel.swift in Sources */,
 				7F64561127BE9D9E00A9E4B6 /* Pokemon.swift in Sources */,
 				7FD34ADD27DF9DD8003AD89E /* Sunset.swift in Sources */,
 				7F64561827BFEFA800A9E4B6 /* JournalEntry.swift in Sources */,
