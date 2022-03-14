@@ -22,6 +22,7 @@ struct Home: View {
                     DeemoAppIcon(name: "PokeDex", color: .orange, destination: PokeDex())
                     DeemoAppIcon(name: "Journal", color: .green, destination: Journal())
                     DeemoAppIcon(name: "Todoey", color: .yellow, destination: TodoList())
+                    DeemoAppIcon(name: "Sunset", color: .indigo, destination: Sunset())
                 }
                 Spacer()
             }
